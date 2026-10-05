@@ -1,5 +1,5 @@
 /**
- * games.js - Games list functionality for Void Network
+ * games.js - Games list functionality for Space Network
  * Contains game listing and search functionality
  * Leaderboard functionality moved to leaderboard.js
  */

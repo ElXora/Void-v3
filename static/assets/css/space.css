@@ -1,0 +1,8 @@
+/* Space Network polish */
+.site-title{background:linear-gradient(90deg,#8cebff,#be96ff);-webkit-background-clip:text;background-clip:text;
+  color:transparent!important;-webkit-text-fill-color:transparent;letter-spacing:.04em;
+  filter:drop-shadow(0 0 12px rgba(120,200,255,.45))}
+.site-title::before{content:"";display:inline-block;width:1.15em;height:1.15em;margin-right:.35em;vertical-align:-.2em;
+  background:url(/assets/spacenet-logo.png) center/contain no-repeat;-webkit-text-fill-color:initial}
+.home_bttn{filter:drop-shadow(0 0 8px rgba(120,200,255,.55));transition:transform .25s ease,filter .25s ease}
+.home_bttn:hover{transform:scale(1.08) rotate(-3deg);filter:drop-shadow(0 0 14px rgba(160,140,255,.8))}

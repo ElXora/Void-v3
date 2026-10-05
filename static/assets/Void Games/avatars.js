@@ -1,5 +1,5 @@
 /**
- * avatars.js - Avatar and theme data for Void Network
+ * avatars.js - Avatar and theme data for Space Network
  * This file centralizes all item data for easier management and updates
  */
 
@@ -11,7 +11,7 @@ const voidItems = {
         name: 'Forest Theme',
         type: 'theme',
         price: 1000000,
-        description: 'Transform your Void Network experience with lush forest visuals and ambient nature sounds.'
+        description: 'Transform your Space Network experience with lush forest visuals and ambient nature sounds.'
     },
     'city_theme': {
         url: 'https://lh7-us.googleusercontent.com/OlgmXm_auGwC6ga8ZVXSx_eqeCfm2bYpMKd3ylW4eLqMZ45CicWeMwJBoUhnYgEdwdEK3bzaMUHt5fIDFk_eaHKFy6cUSjbeEWBIB1TiIxk1trjPXNvFTgEAuaaEx-rO1q0UZ2k6GgZyiyrzWoK-xLQcpUdKWA',
@@ -50,7 +50,7 @@ const voidItems = {
         shortName: 'Duck',
         type: 'avatar',
         price: 1000000,
-        description: 'A friendly duck avatar to represent you in the Void Network.',
+        description: 'A friendly duck avatar to represent you in the Space Network.',
         rarity: 'common'
     },
     'bear_avatar': {
@@ -59,7 +59,7 @@ const voidItems = {
         shortName: 'Bear',
         type: 'avatar',
         price: 1500000,
-        description: 'A powerful bear avatar to show your strength in the Void Network.',
+        description: 'A powerful bear avatar to show your strength in the Space Network.',
         rarity: 'common'
     },
     'wolf_avatar': {
@@ -68,7 +68,7 @@ const voidItems = {
         shortName: 'Polar Bear',
         type: 'avatar',
         price: 1500000,
-        description: 'A fierce wolf avatar to represent your cunning in the Void Network.',
+        description: 'A fierce wolf avatar to represent your cunning in the Space Network.',
         rarity: 'common'
     },
     'frog_avatar': {
@@ -77,7 +77,7 @@ const voidItems = {
         shortName: 'Frog',
         type: 'avatar',
         price: 1500000,
-        description: 'A cute frog avatar that brings good luck in the Void Network.',
+        description: 'A cute frog avatar that brings good luck in the Space Network.',
         rarity: 'common'
     },
     'pig_avatar': {
@@ -86,7 +86,7 @@ const voidItems = {
         shortName: 'Pig',
         type: 'avatar',
         price: 1500000,
-        description: 'An adorable pig avatar for a friendly presence in the Void Network.',
+        description: 'An adorable pig avatar for a friendly presence in the Space Network.',
         rarity: 'common'
     },
     
@@ -97,7 +97,7 @@ const voidItems = {
         shortName: 'Mouse',
         type: 'avatar',
         price: 2500000,
-        description: 'A clever and quick mouse avatar for those who prefer stealth and speed in the Void Network.',
+        description: 'A clever and quick mouse avatar for those who prefer stealth and speed in the Space Network.',
         rarity: 'epic'
     },
     'queso_avatar': {
@@ -106,7 +106,7 @@ const voidItems = {
         shortName: '🧀Queso🧀',
         type: 'avatar',
         price: 2500000,
-        description: 'A deliciously epic cheese avatar that stands out in the Void Network. Cheesy and proud!',
+        description: 'A deliciously epic cheese avatar that stands out in the Space Network. Cheesy and proud!',
         rarity: 'epic'
     },
     'monkey_avatar': {
@@ -115,7 +115,7 @@ const voidItems = {
         shortName: 'Monkey',
         type: 'avatar',
         price: 2500000,
-        description: 'A playful and intelligent monkey avatar to showcase your wit and adaptability in the Void Network.',
+        description: 'A playful and intelligent monkey avatar to showcase your wit and adaptability in the Space Network.',
         rarity: 'epic'
     },
     'cat_avatar': {
@@ -124,7 +124,7 @@ const voidItems = {
         shortName: 'Cat',
         type: 'avatar',
         price: 2500000,
-        description: 'A graceful and mysterious cat avatar for those who rule the Void Network with feline elegance.',
+        description: 'A graceful and mysterious cat avatar for those who rule the Space Network with feline elegance.',
         rarity: 'epic'
     },
     'robot_avatar': {
@@ -133,7 +133,7 @@ const voidItems = {
         shortName: 'Robot',
         type: 'avatar',
         price: 3000000,
-        description: 'A high-tech robot avatar for the future-minded players of the Void Network. Precision and power.',
+        description: 'A high-tech robot avatar for the future-minded players of the Space Network. Precision and power.',
         rarity: 'epic'
     },
     
@@ -144,7 +144,7 @@ const voidItems = {
         shortName: 'Da Rock',
         type: 'avatar',
         price: 3500000,
-        description: 'An unbreakable avatar with unmatched strength and charisma. Command respect in the Void Network with this legendary presence.',
+        description: 'An unbreakable avatar with unmatched strength and charisma. Command respect in the Space Network with this legendary presence.',
         rarity: 'legendary'
     },
     'electro_avatar': {
@@ -153,7 +153,7 @@ const voidItems = {
         shortName: 'Electro',
         type: 'avatar',
         price: 3500000,
-        description: 'A charged legendary avatar coursing with electric energy. Shock and awe other players with your electrifying presence in the Void Network.',
+        description: 'A charged legendary avatar coursing with electric energy. Shock and awe other players with your electrifying presence in the Space Network.',
         rarity: 'legendary'
     },
     'alien_avatar': {
@@ -162,7 +162,7 @@ const voidItems = {
         shortName: 'Alien',
         type: 'avatar',
         price: 3500000,
-        description: 'An otherworldly legendary avatar with cosmic powers. Your extraterrestrial presence will leave other Void Network players in awe.',
+        description: 'An otherworldly legendary avatar with cosmic powers. Your extraterrestrial presence will leave other Space Network players in awe.',
         rarity: 'legendary'
     },
     'skull_avatar': {
@@ -171,7 +171,7 @@ const voidItems = {
         shortName: 'Skull',
         type: 'avatar',
         price: 3500000,
-        description: 'A haunting legendary avatar that brings fear to your opponents. Strike terror in the hearts of other Void Network players with this ominous presence.',
+        description: 'A haunting legendary avatar that brings fear to your opponents. Strike terror in the hearts of other Space Network players with this ominous presence.',
         rarity: 'legendary'
     },
     'mummy_avatar': {
@@ -180,7 +180,7 @@ const voidItems = {
         shortName: 'Mummy',
         type: 'avatar',
         price: 3500000,
-        description: 'An ancient legendary avatar wrapped in mystical bandages. Bring the curse of the pharaohs to the Void Network with this timeless presence.',
+        description: 'An ancient legendary avatar wrapped in mystical bandages. Bring the curse of the pharaohs to the Space Network with this timeless presence.',
         rarity: 'legendary'
     },
     'galactic_void_avatar': {
@@ -189,7 +189,7 @@ const voidItems = {
         shortName: 'Galactic Void',
         type: 'avatar',
         price: 4000000,
-        description: 'The ultimate legendary avatar containing the power of the cosmos itself. Become one with the Void Network in its purest form with this supreme presence.',
+        description: 'The ultimate legendary avatar containing the power of the cosmos itself. Become one with the Space Network in its purest form with this supreme presence.',
         rarity: 'legendary'
     },
     
@@ -200,7 +200,7 @@ const voidItems = {
         shortName: 'Void Bot',
         type: 'avatar',
         price: 0,
-        description: 'Official Void Network developer avatar. Only available to the development team.',
+        description: 'Official Space Network developer avatar. Only available to the development team.',
         rarity: 'dev'
     },
     'design_master_avatar': {
@@ -209,7 +209,7 @@ const voidItems = {
         shortName: 'Design Master',
         type: 'avatar',
         price: 0,
-        description: 'Official Void Network design team avatar. Exclusive to designers of the system.',
+        description: 'Official Space Network design team avatar. Exclusive to designers of the system.',
         rarity: 'dev'
     }
 };

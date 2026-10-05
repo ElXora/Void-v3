@@ -1,5 +1,5 @@
 {
-  "name": "void",
+  "name": "space-network",
   "version": "3.5.2",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "keywords": [],
-  "author": "Void network developers",
+  "author": "Space Network developers",
   "license": "ISC",
   "dependencies": {
     "@tomphttp/bare-client": "^2.2.0-alpha",

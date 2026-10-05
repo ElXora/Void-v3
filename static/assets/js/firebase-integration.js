@@ -1,7 +1,7 @@
 /**
  * firebase-integration.js
  * 
- * This file handles the integration between the Void Network website
+ * This file handles the integration between the Space Network website
  * and the Firebase-based game statistics system. It replaces the client-side
  * GlobalGameStats with server-side FirebaseGameStats.
  */

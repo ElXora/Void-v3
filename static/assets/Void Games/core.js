@@ -1,5 +1,5 @@
 /**
- * core.js - Core functionality for Void Network
+ * core.js - Core functionality for Space Network
  * Contains authentication, utility functions, and base operation handling
  */
 

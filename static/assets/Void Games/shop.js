@@ -1,5 +1,5 @@
 /**
- * shop.js - Shop system for Void Network
+ * shop.js - Shop system for Space Network
  * Contains shop management, item purchasing, theme and avatar functionality, and roll system
  */
 
@@ -1270,7 +1270,7 @@ window.showCoinPurchasePopup = function(itemId, coinAmount, price, stripeUrl) {
     
     // Update popup content for the selected package
     coinPurchasePopup.innerHTML = `
-        <h2>Buy Void Coins</h2>
+        <h2>Buy Space Coins</h2>
         <div class="coin-amount">${coinAmount.toLocaleString()} Coins</div>
         <p>Complete your purchase securely through our payment provider. Click the button below to continue to checkout. If the payment menu is blocked when you press continue to checkout just press the button saying "Continue to checkout using PRX" and this should allow you to view the payment menu.</p>
         <button id="buy-coins-button" data-item-id="${itemId}" data-url="${stripeUrl}">Continue to Checkout</button>
@@ -1887,8 +1887,8 @@ function updateCoinShopItems() {
             <div class="coin-icon">💰</div>
         </div>
         <div class="shop-item-details">
-            <h3 class="shop-item-title">1,000,000 Void Coins</h3>
-            <p class="shop-item-description">Get a massive boost with 1 million Void Coins - perfect for buying premium items and themes!</p>
+            <h3 class="shop-item-title">1,000,000 Space Coins</h3>
+            <p class="shop-item-description">Get a massive boost with 1 million Space Coins - perfect for buying premium items and themes!</p>
             <div class="shop-item-price">
                 <span class="price-amount">$1.50 USD</span>
                 <button class="buy-coins-btn" data-amount="1000000" data-price="1.50" data-url="https://buy.stripe.com/cN27uebFV8rTbte4gh">Buy Now</button>
@@ -1907,8 +1907,8 @@ function updateCoinShopItems() {
             <div class="coin-icon" style="background: linear-gradient(45deg, #FFD700, #FF8C00);">💰💰</div>
         </div>
         <div class="shop-item-details">
-            <h3 class="shop-item-title">5,000,000 Void Coins</h3>
-            <p class="shop-item-description">Get a MASSIVE boost with 5 million Void Coins - the ultimate package for serious players!</p>
+            <h3 class="shop-item-title">5,000,000 Space Coins</h3>
+            <p class="shop-item-description">Get a MASSIVE boost with 5 million Space Coins - the ultimate package for serious players!</p>
             <div class="shop-item-price">
                 <span class="price-amount">$5.50 USD</span>
                 <button class="buy-coins-btn" data-amount="5000000" data-price="5.50" data-url="https://buy.stripe.com/dR615QfWb5fHeFq7su">Buy Now</button>
@@ -1927,8 +1927,8 @@ function updateCoinShopItems() {
             <div class="coin-icon" style="background: linear-gradient(45deg, #FFD700, #FF8C00);">💰💰</div>
         </div>
         <div class="shop-item-details">
-            <h3 class="shop-item-title">10,000,000 Void Coins</h3>
-            <p class="shop-item-description">Get a MASSIVE boost with 10 million Void Coins - the ultimate package for serious players!</p>
+            <h3 class="shop-item-title">10,000,000 Space Coins</h3>
+            <p class="shop-item-description">Get a MASSIVE boost with 10 million Space Coins - the ultimate package for serious players!</p>
             <div class="shop-item-price">
                 <span class="price-amount">$10.50 USD</span>
                 <button class="buy-coins-btn" data-amount="10000000" data-price="10.50" data-url="https://buy.stripe.com/fZe01MeS7aA168U8wz">Buy Now</button>
@@ -1947,8 +1947,8 @@ function updateCoinShopItems() {
             <div class="coin-icon" style="background: linear-gradient(45deg, #FFD700, #FF8C00);">💰💰💰</div>
         </div>
         <div class="shop-item-details">
-            <h3 class="shop-item-title">100,000,000 Void Coins</h3>
-            <p class="shop-item-description">Get a INSANELY MASSIVE boost with 100 million Void Coins - boost you onto the leaderboard!</p>
+            <h3 class="shop-item-title">100,000,000 Space Coins</h3>
+            <p class="shop-item-description">Get a INSANELY MASSIVE boost with 100 million Space Coins - boost you onto the leaderboard!</p>
             <div class="shop-item-price">
                 <span class="price-amount">$100.50 USD</span>
                 <button class="buy-coins-btn" data-amount="100000000" data-price="100.50" data-url="https://buy.stripe.com/3cseWG39p23vbteaEJ">Buy Now</button>

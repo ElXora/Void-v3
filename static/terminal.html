@@ -55,21 +55,21 @@
 <script>
 let commands = {
     clear: function() {
-        document.getElementById("terminal").value = "root@void $ "
+        document.getElementById("terminal").value = "root@space $ "
 
     }
 }
 var textarea = document.getElementById("terminal");
-textarea.innerHTML = "root@void $ "
+textarea.innerHTML = "root@space $ "
 textarea.addEventListener("keydown", function (e) {
 if (e.key == "t" && e.altKey) {
     window.parent.document.getElementById("terminal").remove()
 }
 let splitlen = document.getElementById("terminal").value.split("\n")
-if (e.key === "Backspace" && splitlen[splitlen.length - 1].slice(0, -1).includes("root@void $ ") == false) {
+if (e.key === "Backspace" && splitlen[splitlen.length - 1].slice(0, -1).includes("root@space $ ") == false) {
     e.preventDefault()
 }
-if (e.key === "Enter" && splitlen[splitlen.length - 1].replaceAll("root@void $ ", "") === "clear" || splitlen[splitlen.length - 1].replaceAll("root@void $ ", "") === "clear " || splitlen[splitlen.length - 1].replaceAll("root@void $ ", "") === " clear") {
+if (e.key === "Enter" && splitlen[splitlen.length - 1].replaceAll("root@space $ ", "") === "clear" || splitlen[splitlen.length - 1].replaceAll("root@space $ ", "") === "clear " || splitlen[splitlen.length - 1].replaceAll("root@space $ ", "") === " clear") {
     e.preventDefault()
     commands.clear()
     return;
@@ -79,11 +79,11 @@ if (e.key === "Enter") {
     let splitlen = document.getElementById("terminal").value.split("\n")
     e.preventDefault()
         try {
-            eval(splitlen[splitlen.length-1].replaceAll("root@void $ ", ''))
-            document.getElementById("terminal").value =  document.getElementById("terminal").value + "\n" + "root@void $ "
+            eval(splitlen[splitlen.length-1].replaceAll("root@space $ ", ''))
+            document.getElementById("terminal").value =  document.getElementById("terminal").value + "\n" + "root@space $ "
         } catch (e) {
             document.getElementById("terminal").value = document.getElementById("terminal").value + "\n" + `Command failed: ${e}`
-            document.getElementById("terminal").value =     document.getElementById("terminal").value + "\n" + "root@void $ "
+            document.getElementById("terminal").value =     document.getElementById("terminal").value + "\n" + "root@space $ "
     }
     }
 }); 
